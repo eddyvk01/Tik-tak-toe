@@ -64,7 +64,7 @@ int main()
 	    else  
 		    player=2;
 		
-	cout<<"Player "<<player<<", enter a number: ";
+	cout<<"Player "<<player<<":\t Please select a position (1-9) : ";
 	cin>>choice;
 	
 	if(player == 1)
@@ -105,9 +105,9 @@ int main()
 	}while(i==-1);
 	board();
 	if(i==1)
-	    cout<<"====================================> Player "<<--player<<" win ===================================================="<<endl;
+	    cout<<"====================================> Player "<<--player<<" win <===================================================="<<endl;
 	else
-	    cout<<"====================================>\aGame Draw=============================================="<<endl;
+	    cout<<"====================================>\ aGame Draw  <=============================================="<<endl;
 	    
 	cin.ignore();
 	cin.get();
